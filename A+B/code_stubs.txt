@@ -1,0 +1,7 @@
+function(integer, solution, integer a, integer b, #Code your solution inside this function. Function MUST return an integer.)
+
+integer(a) integer(b)
+
+invoke(integer, result, solution, a, b)
+
+print(integer,result)

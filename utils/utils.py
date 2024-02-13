@@ -1,4 +1,6 @@
 import os 
+import shutil  
+import time
 
 def writeProblem(wd, input_data, output_data):
     if (len(input_data) != len(output_data)):
@@ -7,6 +9,7 @@ def writeProblem(wd, input_data, output_data):
     try:
         os.mkdir(f"{wd}/input")
         os.mkdir(f"{wd}/output")
+        os.mkdir(f"{wd}/problem")
     except FileExistsError:
         pass
     
@@ -14,19 +17,25 @@ def writeProblem(wd, input_data, output_data):
         i = input_data[index]
         o = output_data[index]
 
-        with open(f"{wd}/input/{1+index}.txt", 'w') as f:
+        with open(f"{wd}/input/input{index}.txt", 'w') as f:
 
             line = ""
             for j in i:
                 line += str(j) + " "
+            line = line[:-1]
             line += "\n"
             f.write(line)
             f.close()
 
-        with open(f"{wd}/output/{1+index}.txt", 'w') as f:
+        with open(f"{wd}/output/output{index}.txt", 'w') as f:
 
             f.write(str(o))
             f.close()
+
+    shutil.move(f"{wd}/input", f"{wd}/problem")
+    shutil.move(f"{wd}/output", f"{wd}/problem")   
+    # shutil.make_archive(f"{wd}/problem", "zip", wd)
+    
 
 if __name__ == "__main__":
     writeProblem(os.getcwd(),[[1,2,3],[4,5,6]], [1,2])

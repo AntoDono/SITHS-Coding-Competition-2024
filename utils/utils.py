@@ -2,7 +2,7 @@ import os
 import shutil  
 import time
 
-def writeProblem(wd, input_data, output_data):
+def writeProblem(wd, input_data, output_data, start_index=0):
     if (len(input_data) != len(output_data)):
         Exception("Input and output data length does not match!")
 
@@ -17,7 +17,7 @@ def writeProblem(wd, input_data, output_data):
         i = input_data[index]
         o = output_data[index]
 
-        with open(f"{wd}/input/input{index}.txt", 'w') as f:
+        with open(f"{wd}/input/input{index+start_index}.txt", 'w') as f:
 
             line = ""
             for j in i:
@@ -27,7 +27,7 @@ def writeProblem(wd, input_data, output_data):
             f.write(line)
             f.close()
 
-        with open(f"{wd}/output/output{index}.txt", 'w') as f:
+        with open(f"{wd}/output/output{index+start_index}.txt", 'w') as f:
 
             f.write(str(o))
             f.close()

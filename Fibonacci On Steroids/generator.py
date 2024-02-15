@@ -6,12 +6,12 @@ import sys
 sys.path.append(os.path.abspath("./"))
 from utils.utils import writeProblem
 
-problem_start = 7
+problem_start = 8
 MODULO = 1000000000
-max_index = 100000000
+max_index = 1000000000
 # max_random_index_range = 10
 max_random_index_range = 100000
-cases = 1
+cases = 7
 
 fib = [0, 1]
 
@@ -26,7 +26,10 @@ for i in range(cases):
     ans = 0
     current_case = []
 
-    for j in range(random.randint(1, max_index)):
+    amt_nums = random.randint(1, max_index)
+    print(amt_nums)
+
+    for j in range(amt_nums):
         index = random.randint(0, max_random_index_range - 1)
         current_case.append(str(index + 1))
         ans += fib[index] % MODULO

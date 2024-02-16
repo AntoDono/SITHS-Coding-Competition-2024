@@ -40,7 +40,7 @@ Problem credits: Youwei Zhen
 
 <u>Test cases 9-15</u>:
 
-2 $\leq$ **a.length** $\leq$ 10<sup>9</sup>
+2 $\leq$ **a.length** $\leq$ 10<sup>5</sup>
 
 # Input Format
 The function will have one parameter: a, which is an array of integers.

@@ -6,16 +6,16 @@ import sys
 sys.path.append(os.path.abspath("./"))
 from utils.utils import writeProblem
 
-problem_start = 8
+problem_start = 9
 MODULO = 1000000000
-max_index = 1000000000
+max_index = 100000
 # max_random_index_range = 10
-max_random_index_range = 100000
-cases = 7
+max_random_index_range = 90
+cases = 6
 
 fib = [0, 1]
 
-for i in range(2, 100000 + 1):
+for i in range(2, 90):
     fib.append(fib[-2] + fib[-1])
 
 tests = []
@@ -40,4 +40,4 @@ for i in range(cases):
     print("done")
 
 
-writeProblem(os.getcwd() + "/Fibonacci", tests, answers, problem_start)
+writeProblem(os.getcwd() + "/Fibonacci On Steroids", tests, answers, problem_start)

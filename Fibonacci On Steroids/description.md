@@ -24,11 +24,13 @@ a: [1, 3, 5, 7]
 
 So, 0 + 1 + 3 + 8 = 12
 
+*Hint: In languages such as C++, a long type might be required to store the large numbers.*
+
 Problem credits: Youwei Zhen
 
 # Constraints
 
-1 $\leq$ **i** $\leq$ 90
+1 $\leq$ **i** $\leq$ 10 <sup>5</sup>
 
 <u>Test cases 1-3</u>:
 

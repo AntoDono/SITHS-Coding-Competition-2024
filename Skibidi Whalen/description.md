@@ -1,4 +1,4 @@
-# Problem 5: Shortest Path
+# Problem 5: Skibidi Whalen
 
 Mr. Whalen is stuck in a maze and needs to use the bathroom, but he cannot find the exit. Help him determine if there is a valid solution to the maze.
 

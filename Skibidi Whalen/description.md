@@ -40,7 +40,7 @@ Representation of the maze in a 2D Array:
 ]
 
 
-Output: "YES"
+Answer: "YES"
 
 Explanation: There is a valid solution to this maze.
 

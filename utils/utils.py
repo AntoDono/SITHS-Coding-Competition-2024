@@ -21,8 +21,7 @@ def writeProblem(wd, input_data, output_data, start_index=0):
 
             line = ""
             for j in i:
-                line += str(j) + " "
-            line = line[:-1]
+                line += str(j)
             line += "\n"
             f.write(line)
             f.close()

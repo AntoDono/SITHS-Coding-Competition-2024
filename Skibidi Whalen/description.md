@@ -22,7 +22,7 @@ n: 5
 \# . ###<br>
 \# . ###<br>
 \# . . . .<br>
-####1<br>
+\####1<br>
 
 Representation of the maze in a 2D Array:
 
@@ -36,7 +36,7 @@ Representation of the maze in a 2D Array:
     &emsp;
 ['#', '.' , '.', '.', '.'],<br>
     &emsp;
-['#', '.' , '.', '.', '.']<br>
+['#', '.' , '.', '.', '1']<br>
 ]
 
 

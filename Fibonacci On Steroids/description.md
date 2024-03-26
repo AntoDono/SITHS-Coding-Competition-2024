@@ -1,4 +1,4 @@
-# Problem 4: Fibonacci
+# Problem 6: Fibonacci
 
 The Fibonacci sequence starts with 0 and 1, then each number is the sum of the two before it. 
 

@@ -1,4 +1,4 @@
-# Problem 5: Skibidi Whalen
+# Problem 7: Skibidi Whalen
 
 Mr. Whalen is stuck in a maze and needs to use the bathroom, but he cannot find the exit. Help him determine if there is a valid solution to the maze.
 
@@ -22,7 +22,7 @@ n: 5
 \# . ###<br>
 \# . ###<br>
 \# . . . .<br>
-\####1<br>
+####1<br>
 
 Representation of the maze in a 2D Array:
 

@@ -1,0 +1,6 @@
+5
+X _ O _ X
+O _ X _ O
+X _ O _ X
+O _ X _ O
+X _ O _ X

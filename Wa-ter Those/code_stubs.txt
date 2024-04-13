@@ -1,0 +1,10 @@
+function(long_integer, solution, integer n, integer m, integer_array s, #Code your solution inside this function. Function MUST return a number.)
+
+integer(n)
+integer(m)
+
+array(integer, s, n, single)
+
+invoke(long_integer, result, solution, n, m, s)
+
+print(long_integer, result)

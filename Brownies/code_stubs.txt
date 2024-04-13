@@ -1,0 +1,9 @@
+function(integer, solution, integer_array brownies, #Code your solution inside this function. Function MUST return a number.)
+
+integer(n)
+
+array(integer, brownies, n, single)
+
+invoke(integer, result, solution, brownies)
+
+print(integer, result)

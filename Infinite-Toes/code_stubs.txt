@@ -1,0 +1,9 @@
+function(string, solution, integer n, 2d_character_array N, #Code your solution inside this function. Function MUST return a string.)
+
+integer(n)
+
+2darray(character, N, n, n)
+
+invoke(string, result, solution, n, N)
+
+print(string, result)
